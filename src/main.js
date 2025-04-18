@@ -1,12 +1,12 @@
 import Vue from "vue";
-import App from "./App.vue";
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 import "normalize.css";
 import "element-ui/lib/theme-chalk/display.css";
-import router from "./router";
 import axios from "./utils/http";
 import "hover.css";
+import App from "./App.vue";
+import router from "./router";
 
 import {
   BackTop,
